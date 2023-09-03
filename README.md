@@ -2,7 +2,7 @@
 
 
 
-![EsproMusic](https://te.legra.ph/file/c09f9b880e3fea91f66f0.jpg)
+![EsproMusic](https://te.legra.ph/file/38057fc62e4da71b501f2.jpg)
 
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
