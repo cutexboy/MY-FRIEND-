@@ -1,4 +1,6 @@
-# EsproMusicBot
+<h2 align="center">
+    ──「 Espro Music 」──
+</h2>
 
 
 
