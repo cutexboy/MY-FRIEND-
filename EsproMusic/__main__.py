@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("EsproMusic").info(
-        "Stating EsproMusic \n Support By @I_II_ritikraj_II_I"
+        "Stating EsproMusic \n Support By @NritNikraj"
     )
     await idle()
     await app.stop()
