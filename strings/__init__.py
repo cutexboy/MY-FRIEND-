@@ -5,6 +5,9 @@ from typing import List
 import yaml
 
 languages = {}
+
+commands = {}
+
 languages_present = {}
 
 
