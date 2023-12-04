@@ -9,7 +9,7 @@ languages_present = {}
 
 
 def get_command(value: str) -> List:
-    return command["command"][value]
+    return commands["command"][value]
 
 def get_string(lang: str):
     return languages[lang]
