@@ -4,10 +4,14 @@ import re
 import yt_dlp
 from pykeyboard import InlineKeyboard
 from pyrogram import Client, filters
-from pyrogram.types import Message
-from pyrogram.types import (InlineKeyboardButton,
-                            InlineKeyboardMarkup, InputMediaAudio,
-                            InputMediaVideo, Message)
+from pyrogram import filters
+from pyrogram.types import (
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    InputMediaAudio,
+    InputMediaVideo,
+    Message,
+)
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
