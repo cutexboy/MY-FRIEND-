@@ -10,10 +10,10 @@ from youtubesearchpython import VideosSearch
 
 @app.on_message(filters.command(["song"], ["/", "!", "."]))
 async def song(client: app, message: Message):
-    aux = await message.reply_text("🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...")
+    aux = await message.reply_text("🔎")
     if len(message.command) < 2:
         return await aux.edit(
-            "🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 🥀 𝐒𝐨𝐧𝐠❗️"
+            "ɢɪᴠ ᴍᴇ sᴏɴɢ ɴᴀᴍᴇ \n💞 ᴛᴏ ᴅᴏᴡɴʟᴏᴅᴇ sᴏɴɢ"
         )
     try:
         song_name = message.text.split(None, 1)[1]
@@ -33,10 +33,10 @@ async def song(client: app, message: Message):
             ],
             "outtmpl": f"downloads/{song_title}",
         }
-        await aux.edit("𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...")
+        await aux.edit("ᴅᴏᴡɴʟᴏᴅᴇɪɴɢ")
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download(song_link)
-        await aux.edit("𝐔𝐩𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...")
+        await aux.edit("sᴇɴᴅ sᴏɴɢ")
         await message.reply_audio(f"downloads/{song_title}.mp3")
         try:
             os.remove(f"downloads/{song_title}.mp3")
