@@ -58,4 +58,4 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 <a href="https://telegram.me/EsproMusic"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://t.me/AM_YTBOTT) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://t.me/iam_daxx)_ </b>
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [𝗔𝗠𝗕𝗢𝗧](https://t.me/AM_YTBOTT) ғᴏʀ [𝘿𝘼𝙓𝙓](https://t.me/iam_daxx)_ </b>
