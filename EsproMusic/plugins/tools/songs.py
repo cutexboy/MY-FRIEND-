@@ -3,7 +3,8 @@ import re
 
 import yt_dlp
 from pykeyboard import InlineKeyboard
-from pyrogram import filters
+from pyrogram import Client, filters
+from pyrogram.types import Message
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, InputMediaAudio,
                             InputMediaVideo, Message)
