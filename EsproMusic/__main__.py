@@ -50,7 +50,7 @@ async def init():
         pass
     await Anony.decorators()
     LOGGER("EsproMusic").info(
-        "╔═════════ஜ۩۞۩ஜ════════╗\n 🍁Ritik🤖Raj🥀 \n╚═════════ஜ۩۞۩ஜ════════╝"
+        "🍁Aɴʏ Hᴇʟᴘ Jᴏɪɴ Tʜᴇ Cʜᴀᴛ @EsproSupport 🥀\nI Am Started"
     )
     await idle()
     await app.stop()
