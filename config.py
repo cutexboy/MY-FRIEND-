@@ -1,5 +1,4 @@
 import re
-import sys
 from os import getenv
 
 from dotenv import load_dotenv
@@ -19,17 +18,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
-# Duration Limit for downloading Songs in MP3 or MP4 format from bot
-SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
-)  # Remember to give value in Minutes
-
-
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6209716882))
+OWNER_ID = int(getenv("OWNER_ID", 6209716882)
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -85,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/1d5879f88f80e269ca8ca.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/25efe6aa029c6baea73ea.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/02246ec07f207aa07256d.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-STATS_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-STREAM_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/02246ec07f207aa07256d.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
 
 def time_to_seconds(time):
@@ -108,9 +101,6 @@ def time_to_seconds(time):
 
 
 DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
-SONG_DOWNLOAD_DURATION_LIMIT = int(
-    time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:00")
-)
 
 
 if SUPPORT_CHANNEL:
@@ -123,4 +113,4 @@ if SUPPORT_CHAT:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
-        )
+)
