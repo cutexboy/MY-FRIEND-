@@ -1,4 +1,4 @@
-# This File Is A Part Of https://github.com/CyberPixelPro/AviaxMusic
+# This File Is A Part Of https://github.com/cutexboy/MY-FRIEND-.git
 
 # ALL CREDIT GOES TO THE OWNER OF AVIAX
 
