@@ -17,9 +17,9 @@ from pytgcalls.types.input_stream.quality import HighQualityAudio, MediumQuality
 from pytgcalls.types.stream import StreamAudioEnded
 
 import config
-from AnonXMusic import LOGGER, YouTube, app
-from AnonXMusic.misc import db
-from AnonXMusic.utils.database import (
+from EsproMusic import LOGGER, YouTube, app
+from EsproMusic.misc import db
+from EsproMusic.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -31,11 +31,11 @@ from AnonXMusic.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from AnonXMusic.utils.exceptions import AssistantErr
-from AnonXMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
-from AnonXMusic.utils.inline.play import stream_markup
-from AnonXMusic.utils.stream.autoclear import auto_clean
-from AnonXMusic.utils.thumbnails import gen_thumb
+from EsproMusic.utils.exceptions import AssistantErr
+from EsproMusic.utils.formatters import check_duration, seconds_to_min, speed_converter
+from EsproMusic.utils.inline.play import stream_markup
+from EsproMusic.utils.stream.autoclear import auto_clean
+from EsproMusic.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
